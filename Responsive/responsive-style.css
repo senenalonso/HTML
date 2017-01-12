@@ -1,0 +1,57 @@
+#header-image {
+	background-image: url('http://lorempixel.com/200/200/sports/');
+	background-repeat: no-repeat;
+	width: 100%;
+	height:200px;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.row {
+	margin-left: -3%;
+}
+
+[class*="span"] {
+	display: inline;
+	float: left;
+	margin-left: 3%;
+}
+
+.span-one-third {
+	width: 100%;
+}
+
+@media screen and (min-width: 320px) {
+	#header-image{
+		background-image: url('http://lorempixel.com/320/200/sports/');
+	}
+}
+@media screen and (min-width: 480px) {
+	#header-image{
+		background-image: url('http://lorempixel.com/480/200/sports/');
+	}	
+	h1:after {
+		content: " SMALL SCREEN!!"
+	}	
+}
+@media screen and (min-width: 768px) {
+	#header-image{
+		background-image: url('http://lorempixel.com/768/200/sports/');
+	}	
+	h1:after {
+		content: " MIDDLE SCREEN!!"
+	}	
+	.span-one-third {
+		width: 30%;
+	}
+}
+@media screen and (min-width: 1200px) {
+	#header-image{
+		background-image: url('http://lorempixel.com/1280/200/sports/');
+	}	
+	h1:after {
+		content: " BIG SCREEN!!"
+	}
+}

@@ -1,0 +1,77 @@
+/* line 2, ../../sass/imports/style.scss */
+.logo {
+  background-image: url("http://lorempixel.com/1000/100/sports/");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 120px; }
+
+/* line 9, ../../sass/imports/style.scss */
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+/* line 17, ../../sass/imports/style.scss */
+.item {
+  color: white;
+  font-family: sans-serif;
+  background: #0A77E9;
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 6px;
+  width: 32%;
+  height: 250px; }
+
+/* line 29, ../../sass/imports/style.scss */
+#nav ul {
+  display: flex;
+  width: 100%;
+  align-items: center; }
+  /* line 33, ../../sass/imports/style.scss */
+  #nav ul li {
+    flex: 1 1 100%; }
+
+/* line 39, ../../sass/imports/style.scss */
+ul {
+  border-bottom: 1px solid #ccc;
+  list-style: none;
+  margin: 0 0 1.5rem 0;
+  padding: 0; }
+
+/* line 45, ../../sass/imports/style.scss */
+li {
+  background-image: linear-gradient(to bottom, transparent 50%, #a2d39c 50%, #a2d39c 95%, #7cc576 95%);
+  background-size: 100% 200%;
+  background-position: top center;
+  color: #666;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transition: all .25s ease-in-out; }
+  /* line 60, ../../sass/imports/style.scss */
+  li:hover {
+    background-position: bottom center;
+    color: rgba(0, 0, 0, 0.75); }
+  /* line 64, ../../sass/imports/style.scss */
+  li a {
+    color: #666;
+    display: block;
+    padding: 1rem 0;
+    transition: all .25s ease-in-out; }
+
+/* line 72, ../../sass/imports/style.scss */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(82, 161, 160, 0.812); }
+
+/* line 80, ../../sass/imports/style.scss */
+.container_footer {
+  width: auto;
+  padding: 0 15px;
+  margin: 20px 0;
+  text-align: center; }
